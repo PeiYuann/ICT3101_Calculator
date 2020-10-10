@@ -5,8 +5,8 @@ I want to understand a variety of factorial operations
 @Factorial
 Scenario: Factorial positive number
 Given I have a calculator
-When I have entered "5" into the calculator and press factorial
-Then the factorial result should be "120"
+When I have entered "4" into the calculator and press factorial
+Then the factorial result should be "24"
 @Factorial
 Scenario: Factorial zero
 Given I have a calculator
